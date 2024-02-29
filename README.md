@@ -1,6 +1,6 @@
 # Latent Dynamics Networks
 
-This repository contains codes accompanying the paper [1], introducing **Latent Dynamics Network (LDNets)**, a scientific machine learning method capable of uncovering low-dimensional intrinsic dynamics in systems exhibiting a spatio-temporal behavior in response to external stimuli. LDNets automatically discover a low-dimensional manifold while learning the system dynamics, eliminating the need for training an auto-encoder and avoiding operations in the high-dimensional space. They predict the evolution, even in time-extrapolation scenarios, of space-dependent fields without relying on predetermined grids, thus enabling weight-sharing across query-points. Lightweight and easy-to-train, LDNets demonstrate superior accuracy (normalized error 5 times smaller) in highly-nonlinear problems, with significantly fewer trainable parameters (more than 10 times fewer) compared to state-of-the-art methods.
+This repository contains codes accompanying the paper [1], introducing [**Latent Dynamics Network (LDNets)**](https://doi.org/10.1038/s41467-024-45323-x), a scientific machine learning method capable of uncovering low-dimensional intrinsic dynamics in systems exhibiting a spatio-temporal behavior in response to external stimuli. LDNets automatically discover a low-dimensional manifold while learning the system dynamics, eliminating the need for training an auto-encoder and avoiding operations in the high-dimensional space. They predict the evolution, even in time-extrapolation scenarios, of space-dependent fields without relying on predetermined grids, thus enabling weight-sharing across query-points. Lightweight and easy-to-train, LDNets demonstrate superior accuracy (normalized error 5 times smaller) in highly-nonlinear problems, with significantly fewer trainable parameters (more than 10 times fewer) compared to state-of-the-art methods.
 
 ## Requirements
 
@@ -30,4 +30,4 @@ rm data.zip
 
 ## References
 
-[1] F. Regazzoni, S. Pagani, M. Salvador, L. Dede', A. Quarteroni, [_Learning the intrinsic dynamics of spatio-temporal processes through Latent Dynamics Networks_](https://doi.org/10.48550/arXiv.2305.00094).
+[1] F. Regazzoni, S. Pagani, M. Salvador, L. Dede', A. Quarteroni, ["Learning the intrinsic dynamics of spatio-temporal processes through Latent Dynamics Networks"](https://doi.org/10.1038/s41467-024-45323-x) _Nature Communications_ (2024) 15, 1834
